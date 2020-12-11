@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="com.pratian.pas.automation.TestClasses.TestRegisterAccount"/>
+     <class name="com.pratian.pas.automation.TestClasses.TestLoginWithValidCred"/>
+      <class name="com.pratian.pas.automation.TestClasses.TestLoginWithInvalidCred"/>
+       <class name="com.pratian.pas.automation.TestClasses.TestLogOut"/>
+        <class name="com.pratian.pas.automation.TestClasses.TestContactUs"/>
+         <class name="com.pratian.pas.automation.TestClasses.TestRestaurants"/>
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
